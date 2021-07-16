@@ -8,19 +8,19 @@
         "data": "hwQQABAAAABVJERCRVREREUiREJVVVVVJCIiVEVFVVUiJERVRCJURCJCVEQiQiJFIkRFJCIkJEUiVEUiJEIiRUJUJCIiIkJFREUkIiIiQkVCRSJEIiRCRUJFIkQiIlJFQlVEIiJCVCRCRVVFRFRVJERVRFVVVUQiVEREVEVVJEJVRCJCRVQkQg==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "hell_tile17"
+        "displayName": "hell_tile0"
     },
     "hell_tile18": {
         "data": "hwQQABAAAABFJEJCRVRFREQiIiJEQlVVREIiIkRCRFVFIiJEJCJCVUVERFQkQkJFVERUVSQiQkVUVVVVRCJURURERFVFQlREJCJCRFVEVCQiIkIkVFVVJCJERCJCVUUiIlREQkJVJCREVUUiQkVCQkRVRSJERSIkRFVEIlRFIkJURSRCVFVERA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "hell_tile18"
+        "displayName": "hell_tile1"
     },
     "hell_tile20": {
         "data": "hwQQABAAAADAvLu7u8vMAMy7u7u7y8wMvLu7u7vL/P+7u7u7y7v8/7u7u7vLvPz/u7u7u8vMzP+8u7u7u8zM/My7u7u7y//8vLu7u8vL//+7u7u7y8z8/7u7u7u7vPz/u7u7u7u7+/+7u7u7u7vL/7u7u7u7y8v8vLu7u7vM+//Mu7u7y7z8/w==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "hell_tile20"
+        "displayName": "hell_tile2"
     },
     "幽灵烈火": {
         "id": "幽灵烈火",
