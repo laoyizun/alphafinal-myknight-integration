@@ -2,6 +2,12 @@
 namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const transparency16 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const hell_tile17 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const hell_tile18 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const hell_tile20 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -86,6 +92,33 @@ namespace myTiles {
 ..2..............2..
 ..2222222222222222..
 `, [myTiles.transparency16,sprites.castle.tilePath5,sprites.castle.tilePath1,sprites.castle.tilePath2,sprites.castle.tilePath8,sprites.castle.tilePath6,sprites.castle.tilePath4,sprites.castle.tilePath9,sprites.castle.tilePath3,sprites.castle.tilePath7,sprites.builtin.forestTiles8,sprites.swamp.swampTile1,sprites.builtin.forestTiles24], TileScale.Sixteen);
+            case "幽灵烈火":return tiles.createTilemap(hex`140019000202020202020202020202020202020202020202020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101030101010101010202010101010101010101010101010101010101020201010101010101010103010101010101010102020101010101010101010101010103010101010202010101010101010101010101010101010101020201010101010101010101030101010101010102020101030101010101010101010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101030101010101010101010202010101010101010101010101010101010101020202020202020202010101010202020202020202020202020202020201010101020202020202020202020202020202020103010102020202020202020202020202020202010101010202020202020202020202020202020201010101020202020202020202020201010101010101010101010101010101020202020101010101010101030101010101010102020202010101010301010101010101010101010202020201010101010101010101010101010101020202020202020202020202020202020202020202`, img`
+22222222222222222222
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+2..................2
+22222222....22222222
+.......2....2.......
+.......2....2.......
+.......2....2.......
+..222222....22222222
+..2................2
+..2................2
+..2................2
+..2................2
+..222222222222222222
+`, [myTiles.transparency16,myTiles.hell_tile17,myTiles.hell_tile18,myTiles.hell_tile20], TileScale.Sixteen);
         }
         return null;
     })
@@ -93,6 +126,9 @@ namespace myTiles {
     helpers._registerFactory("tile", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "transparency16":return transparency16;
+            case "hell_tile17":return hell_tile17;
+            case "hell_tile18":return hell_tile18;
+            case "hell_tile20":return hell_tile20;
         }
         return null;
     })
