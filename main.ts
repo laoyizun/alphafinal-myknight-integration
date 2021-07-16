@@ -1,4 +1,4 @@
-Maze.setMaze(tilemap`级别3`, "幽灵迷宫", function () {
+Maze.setMaze(tilemap`幽灵迷宫`, "幽灵迷宫", function () {
     Maze.bornPlaceCR(2, 2)
     Maze.makeWeapon2(playground_helpers.randomWeapon(), sprites.dungeon.darkGroundCenter)
     Maze.setMazeMonsters(function () {
@@ -658,7 +658,7 @@ playground_helpers.multishoot(sprite, 1, 5, 0, 0.1, "幽灵粒子", 75, 8, 0, 0)
     })
     Enemy.dropWeapon(enemy, "小血瓶", 20)
 })
-Maze.setMaze(tilemap`级别1`, "荒漠", function () {
+Maze.setMaze(tilemap`荒漠`, "荒漠", function () {
     Maze.bornPlaceCR(2, 2)
     Maze.makeWeapon2(playground_helpers.randomWeapon(), sprites.castle.tilePath5)
     Maze.setMazeMonsters(function () {
