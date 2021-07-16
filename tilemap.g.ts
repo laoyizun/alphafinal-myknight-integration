@@ -8,6 +8,38 @@ namespace myTiles {
     export const hell_tile18 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const hell_tile20 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile4 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile6 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile7 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile8 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile9 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile11 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile12 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile13 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile14 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile15 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile16 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile17 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile18 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile19 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile20 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const lucas_tile21 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -123,6 +155,33 @@ namespace myTiles {
 ..2..............2..
 ..2222222222222222..
 `, [myTiles.transparency16,sprites.castle.tilePath5,sprites.castle.tilePath1,sprites.castle.tilePath2,sprites.castle.tilePath8,sprites.castle.tilePath6,sprites.castle.tilePath4,sprites.castle.tilePath9,sprites.castle.tilePath3,sprites.castle.tilePath7,sprites.builtin.forestTiles8,sprites.swamp.swampTile1,sprites.builtin.forestTiles24], TileScale.Sixteen);
+            case "学校":return tiles.createTilemap(hex`14001900010507070707070707050707070707070707070e02111111111112151515151515161d111d1e1e0d031111111111131a1a1a1a1a1a1711111d211e0d031111111111141919191919191811111d1e1e0d031111111111111111111111111e11111d211e0d03111111111b1b1111111111111b1b11201f1f0d03111111111b1b1111111111111b1b111111110d0311111111111111111b1b11111111111111110d0311111111222211111b1b11112222111111111002111111111b1b1111111111111b1b111111110d03111111111b1b1111222211111b1b111111110d031111111111111111111111111111111111110d0211111111222211111111111122221111111110031111111111111111111111111111111111110d031111111111111111111111111111111111110d040608080606060b11111111090606060606060f0000000000000002111111110d000000000000000000000000000002111111110d000000000000000000000000000002111111110d00000000000000000001070707070c111111110a070707070e00000000021c1c1c1111111111111111111b1b0d00000000021c1c1c111111111111111b111b1b0d00000000021c1c1c111111111111111b111b1b0d00000000021c1c1c1111111111111111111b1b0d000000000408060608080606060806060606060f0000`, img`
+22222222222222222222
+2.....22222222.....2
+2.....22222222...2.2
+2.....22222222.....2
+2................2.2
+2....22......22....2
+2....22......22....2
+2........22........2
+2....22..22..22....2
+2....22......22....2
+2....22..22...2....2
+2..................2
+2....22......22....2
+2..................2
+2..................2
+22222222....22222222
+.......2....2.......
+.......2....2.......
+.......2....2.......
+..222222....222222..
+..2222.........222..
+..2222.......2.222..
+..2222.......2.222..
+..2222.........222..
+..2222222222222222..
+`, [myTiles.transparency16,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterNorth1,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.greenInnerSouthWest,sprites.dungeon.greenInnerNorthEast,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterEast1,sprites.dungeon.floorLight2,myTiles.lucas_tile4,myTiles.lucas_tile6,myTiles.lucas_tile7,myTiles.lucas_tile8,myTiles.lucas_tile9,myTiles.lucas_tile11,myTiles.lucas_tile12,myTiles.lucas_tile13,myTiles.lucas_tile14,myTiles.lucas_tile15,myTiles.lucas_tile16,myTiles.lucas_tile17,myTiles.lucas_tile18,myTiles.lucas_tile19,myTiles.lucas_tile20,myTiles.lucas_tile21,sprites.dungeon.stairLadder], TileScale.Sixteen);
         }
         return null;
     })
