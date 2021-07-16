@@ -693,6 +693,8 @@ myknight_felix_dlc.poisonousSnake()
 myknight_felix_dlc.room_dangerous_swamp()
 myknight_lucas_dlc.school()
 hanze()
+myknight_reese_dlc.heavenMaze()
+myknight_reese_dlc.princess()
 blockMenu.showMenu(playground_helpers.getAllCharacters(), MenuStyle.List, MenuLocation.FullScreen)
 Bullet.bulletOverlap("手枪子弹", Bullet.overlapKind.two, function (projectile, otherSprite) {
     Bullet.setHp(otherSprite, -100)
