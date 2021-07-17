@@ -8,13 +8,13 @@
         "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
         "[FelixD3]MyKnight.DLC.NaughtyMonkey": "pub:58797-07491-69817-64997",
         "[FelixD3]MyKnight.DLC.ForestBat": "pub:46274-95626-27530-16715",
-        "[FelixD3]MyKnight.DangerousSwamp": "pub:64753-45171-17121-12696",
         "[FelixD3]MyKnight.DLC.DreadfulTeacher": "pub:78303-68967-52931-94394",
         "[FelixD3]MyKnight.DLC.PoisonousSnake": "pub:52312-78636-84810-00108",
-        "[LucasFinal]MyKnight.DLC.School": "pub:23357-35800-08528-74319",
-        "[hanzeD5]幽灵之火🔥 熊熊燃烧吧！": "pub:20841-95534-75396-62570",
-        "[ReeseFinal]MyKnight.DLC": "pub:33001-09658-32207-28935",
-        "[JennyFinal]MyKnight.DlC": "pub:05831-82054-77536-91934"
+        "[FelixD3]MyKnight.DangerousSwamp": "pub:11311-02132-15789-03311",
+        "[LucasFinal]MyKnight.DLC.School": "pub:17129-42624-78218-24432",
+        "[hanzeFinal]MyKnight.DLC": "pub:30850-07428-95774-68593",
+        "[ReeseFinal]MyKnight.DLC": "pub:70234-24105-58136-39357",
+        "[JennyFinal]MyKnight.DLC": "pub:37986-61720-99877-32358"
     },
     "files": [
         "main.blocks",
