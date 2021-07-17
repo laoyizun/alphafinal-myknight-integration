@@ -1,5 +1,6 @@
 {
     "name": "[Alpha.Final]MyKnight.Integration",
+    "version": "0.1.2",
     "description": "",
     "dependencies": {
         "device": "*",
