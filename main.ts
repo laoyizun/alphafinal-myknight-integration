@@ -682,8 +682,8 @@ blockMenu.onMenuOptionSelected(function (option, index) {
     gamestart(option)
 })
 //DLC
-//myknight_Fred_dlc.fredWeapons()
-myknight_dazun_dlc.dazunplain()
+//myknight_fred_dlc.fredDay3()
+//myknight_dazun_dlc.dazunplain()
 
 cubicbird_gamejam_titlescreen.drawIntro(" my knight ")
 blockMenu.setControlsEnabled(false)
