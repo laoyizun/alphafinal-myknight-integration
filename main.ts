@@ -683,7 +683,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
 })
 //DLC
 //myknight_Fred_dlc.fredWeapons()
-//myknight_dazun_dlc.kingOfDrumstick()
+myknight_dazun_dlc.dazunplain()
 
 cubicbird_gamejam_titlescreen.drawIntro(" my knight ")
 blockMenu.setControlsEnabled(false)

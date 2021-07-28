@@ -7,7 +7,7 @@
         "maze-extension": "github:cubicbird/maze-extension#v0.1.8",
         "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
         "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11",
-        "[dazun]MyKnight.Playground.DLC": "pub:33000-40511-09330-53143"
+        "[dazun]MyKnight.Playground.DLC": "pub:52183-09321-25784-45893"
     },
     "files": [
         "main.blocks",
