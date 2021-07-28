@@ -4,7 +4,6 @@
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true
     },
-    
     "幽灵迷宫": {
         "id": "幽灵迷宫",
         "mimeType": "application/mkcd-tilemap",
