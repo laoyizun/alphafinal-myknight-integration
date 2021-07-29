@@ -20,6 +20,7 @@
         "enemy1.ts",
         "maze.ts",
         "tilemap.g.jres",
+        "images.g.jres",
         "tilemap.g.ts",
         "playground_helpers.ts"
     ],
