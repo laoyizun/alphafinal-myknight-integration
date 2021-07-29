@@ -658,32 +658,16 @@ playground_helpers.multishoot(sprite, 1, 5, 0, 0.1, "幽灵粒子", 75, 8, 0, 0)
     })
     Enemy.dropWeapon(enemy, "小血瓶", 20)
 })
-Maze.setMaze(tilemap`荒漠`, "荒漠", function () {
-    Maze.bornPlaceCR(2, 2)
-    Maze.makeWeapon2(playground_helpers.randomWeapon(), sprites.castle.tilePath5)
-    Maze.setMazeMonsters(function () {
-        Maze.setMonstersMembers2("1幽灵", sprites.castle.tilePath5)
-        Maze.setMonstersMembers2("1幽灵持续", sprites.castle.tilePath5)
-    })
-    Maze.setMazeMonsters(function () {
-        Maze.setMonstersMembers2("3幽灵", sprites.castle.tilePath5)
-    })
-    Maze.setMazeMonsters(function () {
-        Maze.setMonstersMembers2("我的幽灵", sprites.swamp.swampTile1)
-        Maze.setMonstersMembers2("大幽灵boss", sprites.swamp.swampTile1)
-        Maze.setMonstersMembers2("3幽灵", sprites.swamp.swampTile1)
-    })
-    Maze.nextPortal2(sprites.castle.tilePath5)
-    Maze.nextMazeOfPortal(Maze.mazeKind.random)
-})
+
 blockMenu.onMenuOptionSelected(function (option, index) {
     blockMenu.setControlsEnabled(false)
     blockMenu.closeMenu()
     gamestart(option)
 })
 //DLC
-//myknight_fred_dlc.fredDay3()
-//myknight_dazun_dlc.dazunplain()
+myknight_fred_dlc.fredDay3()
+myknight_deniel_dlc.denielDay3()
+myknight_dazun_dlc.dazunplain()
 
 cubicbird_gamejam_titlescreen.drawIntro(" my knight ")
 blockMenu.setControlsEnabled(false)
