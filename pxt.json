@@ -1,5 +1,5 @@
 {
-    "name": "[729Beta]MyKnight.Integration",
+    "name": "[BetaFinal]MyKnight.Integration",
     "version": "1.0.2",
     "description": "",
     "dependencies": {
@@ -9,7 +9,7 @@
         "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11",
         "[dazunD4]MyKnight.Playground.DLC": "pub:70016-66854-72055-59018",
         "[fredD5]MyKnight.DLC": "pub:12482-49952-13621-94027",
-        "[danielD5]MyKnight.DLC": "pub:60799-46877-80919-61758"
+        "[danielD5]MyKnight.DLC": "pub:75815-19749-90521-50164"
     },
     "files": [
         "main.blocks",
