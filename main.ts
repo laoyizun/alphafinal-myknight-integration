@@ -667,8 +667,8 @@ blockMenu.onMenuOptionSelected(function (option, index) {
 //DLC
 
 myknight_dazun_dlc.dazunDay4()
-myknight_fred_dlc.fredDay4()
-myknight_daniel_dlc.danielDay4()
+myknight_fred_dlc.fredDay5()
+myknight_daniel_dlc.danielD5()
 
 cubicbird_gamejam_titlescreen.drawIntro(" my knight ")
 blockMenu.setControlsEnabled(false)
