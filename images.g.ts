@@ -1,4 +1,4 @@
-// Auto-generated code. Do not edit.
+// 自动生成的代码。请勿编辑。
 namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
@@ -284,4 +284,4 @@ f f f e e e e f e f e e e e f f
     })
 
 }
-// Auto-generated code. Do not edit.
+// 自动生成的代码。请勿编辑。
