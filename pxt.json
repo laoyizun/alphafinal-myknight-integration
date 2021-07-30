@@ -1,12 +1,15 @@
 {
-    "name": "[728]MyKnight.Integration",
+    "name": "[729Beta]MyKnight.Integration",
     "version": "1.0.2",
     "description": "",
     "dependencies": {
         "device": "*",
         "maze-extension": "github:cubicbird/maze-extension#v0.1.11",
         "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
-        "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11"
+        "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11",
+        "[dazunD4]MyKnight.Playground.DLC": "pub:70016-66854-72055-59018",
+        "[fredD4]MyKnight.Playground.DLC": "pub:01965-36116-46468-22468",
+        "[danielD4]MyKnight.Playground.DLC": "pub:44391-25931-35314-59873"
     },
     "files": [
         "main.blocks",
